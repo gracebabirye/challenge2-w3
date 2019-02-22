@@ -1,4 +1,4 @@
-# Week 3
+# WEEK 3
 ## ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `Challenge two`
 ### Object Oriented Programming(OOP)
 ### Bank account
