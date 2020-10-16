@@ -1,3 +1,5 @@
+import sys
+
 class BankAccount:
     def __init__(self):
         #initialize global variable balance to be accessed by any method in this class
@@ -29,8 +31,9 @@ print("Welcome to Our Bank......")
 print(bank.get_balance())
 
 print("Enter Deposit")
-input1 = raw_input()
-bank.deposit(int(input1))
+input1 =  int(sys.stdin.readline())
+
+bank.deposit(input1)
 bank.get_balance()
 print("Current Balance is:")
 print(bank.get_balance())
