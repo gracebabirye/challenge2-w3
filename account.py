@@ -34,7 +34,7 @@ print("Enter Deposit")
 input1 =  sys.stdin.readline()
 print(input1)
 
-bank.deposit(int(float(input1)))
+bank.deposit(int(input1))
 bank.get_balance()
 print("Current Balance is:")
 print(bank.get_balance())
