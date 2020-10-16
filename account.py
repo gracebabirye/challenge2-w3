@@ -32,6 +32,7 @@ print(bank.get_balance())
 
 print("Enter Deposit")
 input1 =  12 #sys.stdin.readline()
+print(input1)
 
 bank.deposit(int(input1))
 bank.get_balance()
