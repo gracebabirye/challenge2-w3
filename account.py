@@ -13,7 +13,7 @@ class BankAccount:
     def open(self):
         self.balance = 0
 
-    def deposit(self, amount):
+    def deposit(self, amount=200):
         if(self.balance == 'closed' or amount < 0):
             raise ValueError('ValueError')
         self.balance += amount
