@@ -24,3 +24,14 @@ class BankAccount:
     def close(self):
         self.balance = "closed"
 
+bank = BankAccount()
+print("Welcome to Our Bank......")
+print(bank.get_balance())
+
+print("Enter Deposit")
+input1 = input()
+bank.deposit(int(input1))
+bank.get_balance()
+print("Current Balance is:")
+print(bank.get_balance())
+
