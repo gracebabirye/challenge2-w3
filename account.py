@@ -30,7 +30,7 @@ bank = BankAccount()
 print("Welcome to Our Bank......")
 print(bank.get_balance())
 
-print("Enter Deposit Amount .. ::::::xxx::.....::::::........")
+print("Enter Deposit Amount .. ::::::xx::.....::::::........")
 input1 =  12 #sys.stdin.readline()
 
 
